@@ -1,0 +1,10 @@
+import os
+
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+OWNER_TELEGRAM_ID = int(os.environ["OWNER_TELEGRAM_ID"])
+
+AGENT_NAME = "ZAI Agent"
+MODEL_NAME = "llama-3.3-70b-versatile"
+MAX_TOKENS = 4096
+TEMPERATURE = 0.7
